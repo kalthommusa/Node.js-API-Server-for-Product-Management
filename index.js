@@ -20,10 +20,6 @@ app.use(express.urlencoded({ extended: false }));
 // Use the product route for all requests to /api/products
 app.use("/api/products", productRoute);
 
-// Respond with a simple message at the root URL
-app.get("/", (req, res) => {
-  res.send("Hello from Node API Server");
-});
 
 // Connect to the MongoDB database
 mongoose.connect("mongodb+srv://kalthommusa12345:G5CERQHCppfEbkh2@cluster0.tktdwg5.mongodb.net/Node-API?retryWrites=true&w=majority&appName=Cluster0")
