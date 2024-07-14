@@ -16,7 +16,7 @@ This project is a simple and basic CRUD (Create, Read, Update, Delete) API serve
 ## Project Structure
 
 ```
-simple-crud-app/
+./
 ├── controllers/
 │   └── product.controller.js
 ├── models/
